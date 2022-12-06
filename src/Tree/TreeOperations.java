@@ -1,4 +1,4 @@
-import java.time.temporal.Temporal;
+package Tree;
 
 public class TreeOperations {
     TreeNode root;
@@ -32,12 +32,12 @@ public class TreeOperations {
 
             TreeNode temp = eleman.firstChild;
             while (temp != null) {
-
                 listAllSizes(temp);
                 temp = temp.nextSibling;
             }
 
         }
-        return totalSize;
+            return totalSize;
+
     }
 }

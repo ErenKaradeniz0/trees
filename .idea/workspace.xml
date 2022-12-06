@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3aa3e20d-71aa-4631-b2d9-e7967a8e42da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreeOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trees.iml" afterDir="false" />
+    <list default="true" id="3aa3e20d-71aa-4631-b2d9-e7967a8e42da" name="Changes" comment="2/12/2022">
+      <change afterPath="$PROJECT_DIR$/src/Queue/JosephusProblemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/BinaryNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryNodeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/BinaryNodeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryNodeOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/BinaryNodeOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TreeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/TreeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TreeOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/TreeOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,28 +33,45 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2I2FxXh5sM0L2YJj67Hkx1S8GMQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/erenk/IdeaProjects/trees&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BinaryNodeMain">
-    <configuration name="BinaryNodeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryNodeMain" />
+  <component name="RunManager" selected="Application.BinaryTree.BinaryNodeMain">
+    <configuration name="BinaryTree.BinaryNodeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.BinaryNodeMain" />
       <module name="trees" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TreeMain" />
+    <configuration name="Queue.JosephusProblemTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Queue.JosephusProblemTest" />
+      <module name="trees" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tree.TreeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.TreeMain" />
       <module name="trees" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -61,8 +79,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinaryNodeMain" />
-        <item itemvalue="Application.TreeMain" />
+        <item itemvalue="Application.BinaryTree.BinaryNodeMain" />
+        <item itemvalue="Application.Tree.TreeMain" />
+        <item itemvalue="Application.Queue.JosephusProblemTest" />
       </list>
     </recent_temporary>
   </component>
@@ -75,6 +94,21 @@
       <option name="presentableId" value="Default" />
       <updated>1669372019742</updated>
     </task>
+    <task id="LOCAL-00001" summary="2/12/2022">
+      <created>1669930078139</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669930078139</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2/12/2022">
+      <created>1669930088746</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669930088746</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,5 +121,24 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="2/12/2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="2/12/2022" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tree/TreeOperations.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/trees$Tree_TreeMain.ic" NAME="Tree.TreeMain Coverage Results" MODIFIED="1670271759795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
